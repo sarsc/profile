@@ -27,6 +27,11 @@ body {
   height: 80vh;
 }
 
+#page3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .main-background {
