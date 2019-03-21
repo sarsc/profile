@@ -4,18 +4,27 @@
 /*Components*/
 @import url("components/btn.css");
 @import url("components/navbar.css");
+@import url("components/container.css");
 /*Pages*/
 @import url("home.css");
+@import url("page2.css");
+@import url("page3.css");
 
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   font-family: 'Andada', serif;
+  background-color: #fcfcfc;
+  letter-spacing: 0.3rem;
 }
 
-#page1, #page2 {
+#page1, #page3 {
   height: 100vh;
+}
+
+#page2 {
+  height: 80vh;
 }
 
 @media (max-width: 960px) {

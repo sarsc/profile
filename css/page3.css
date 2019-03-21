@@ -1,0 +1,29 @@
+.project-cards {
+  display: flex;
+  align-items: center;
+  margin:30px;
+  /*width: 100%;*/
+  height: 60vh;
+}
+
+.project-card1, .project-card2 {
+  background-size: cover;
+  width: 50%;
+  height: 70%;
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.project-card1 {
+  /*width: 100%;*/
+  background-image: url("/images/LK.png");
+}
+
+.project-card2 {
+  background-image: url("/images/RK.png");
+}
+
+.page3-container h2 {
+  text-align: center;
+}

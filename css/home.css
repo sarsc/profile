@@ -1,10 +1,4 @@
-.main-container {
-  display: flex;
-}
 
-.main-container {
-  flex-direction: column;
-}
 .main-info {
   padding: 50px;
   text-align: center;
@@ -36,5 +30,4 @@
   background:linear-gradient(to bottom, rgba(252, 252, 252, 0.1), rgba(252, 252, 252, 0.1));
   width: 70%;
   height: 70vh;
-  bottom:
 }
