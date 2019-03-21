@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Andada');
 
 /*Components*/
-
+@import url("components/btn.css");
+@import url("components/navbar.css");
 /*Pages*/
 @import url("home.css");
 

@@ -1,3 +1,10 @@
+.main-container {
+  display: flex;
+}
+
+.main-container {
+  flex-direction: column;
+}
 .main-info {
   padding: 50px;
   text-align: center;
@@ -12,25 +19,22 @@
   font-size: 50px;
   color: white;
 }
-.main-background-img, .secondary-bg-img {
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-}
 
 .main-background-img {
   background-image: linear-gradient(to bottom, rgba(29, 30, 30, 0.1), rgba(29, 30, 30, 0.1)), url("/images/roses-background1.jpg");
+  background-size: cover;
   opacity: 0.9;
   background-position: center bottom;
   height: 100vh;
   align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.secondary-bg-img {
-
-  /*background-position: center;*/
+.background-opaque {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   background:linear-gradient(to bottom, rgba(252, 252, 252, 0.1), rgba(252, 252, 252, 0.1));
   width: 70%;
   height: 70vh;
+  bottom:
 }
