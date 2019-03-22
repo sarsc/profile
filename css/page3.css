@@ -1,14 +1,16 @@
 .project-cards {
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  text-align: center;
   margin:30px;
+  /*width: 50vh;*/
+  position: relative;
   height: 60vh;
 }
 
-.project-card img {
-  width: 100%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
+/*.project-card img {*/
+  /*width: 30%;*/
+  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
+/*}*/
 
 .page3-container h2 {
   text-align: center;
@@ -24,12 +26,20 @@
   font-size: 20px;
 }
 
-.project-card {
-  margin: 0 10px;
+.project-card1 {
+  position: absolute;
+  left: 204px;
+  top: 82px;
+}
+.project-card2 {
+  position: absolute;
+  left: 593px;
+  bottom: 93px;
+
 }
 
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
+/*@media (max-width: 720px) {*/
+  /* For a screen < 720px, this CSS will be read
  .project-cards {
    height: 40vh;
    display: flex;
@@ -39,4 +49,4 @@
 /*#page3 {
   align-items: space-between;
 }*/
-}
+/*}*/

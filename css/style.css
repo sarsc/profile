@@ -19,18 +19,24 @@ body {
   letter-spacing: 0.3rem;
 }
 
+a {
+  margin: 0;
+  padding: 0;
+}
+
 #page1, #page3 {
   height: 100vh;
 }
 
 #page2 {
-  height: 80vh;
+  height: 70vh;
 }
 
 #page3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0;
 }
 
 @media (max-width: 960px) {
