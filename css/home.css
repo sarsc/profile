@@ -32,3 +32,18 @@
   width: 70%;
   height: 70vh;
 }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .main-background {
+    width: 400px;
+  }
+  .background-opaque {
+    width: 70vh;
+    height: 50vh;
+  }
+ /* .main-background-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }*/
+}

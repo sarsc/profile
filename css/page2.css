@@ -6,3 +6,12 @@
   letter-spacing: 0.3rem;
   width: 50%
 }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+ .about-me {
+   width: 70vh;
+   font-size: 10px;
+   line-height: 1rem;
+ }
+}
