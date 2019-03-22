@@ -1,16 +1,14 @@
 .project-cards {
-  /*display: flex;*/
   text-align: center;
   margin:30px;
-  /*width: 50vh;*/
   position: relative;
   height: 60vh;
 }
 
-/*.project-card img {*/
-  /*width: 30%;*/
-  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
-/*}*/
+.project-title:hover {
+  transform: scale(1.2);
+  /*color: #4f6363;*/
+}
 
 .page3-container h2 {
   text-align: center;
