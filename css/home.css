@@ -16,7 +16,7 @@
 }
 
 .main-background-img {
-  background-image: linear-gradient(to bottom, rgba(29, 30, 30, 0.1), rgba(29, 30, 30, 0.1)), url("/images/roses-background1.jpg");
+  background-image: linear-gradient(to bottom, rgba(29, 30, 30, 0.1), rgba(29, 30, 30, 0.1)), url("images/roses-background1.jpg");
   background-size: cover;
   opacity: 0.9;
   background-position: center bottom;
